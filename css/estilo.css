@@ -189,8 +189,16 @@ footer figure {
     padding-left: 2.5%;
 }
 
-.footer p{
-    
+.bi-facebook {
+    padding-left: 2.5%;
+}
+
+footer p {
+    margin-top: 2%;
+}
+
+.logo_footer{
+    margin-top: 2%;
 }
 
 @media screen and (min-width: 1200px) {
