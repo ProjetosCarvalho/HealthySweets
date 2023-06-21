@@ -16,19 +16,12 @@ function logar(){
             window.location.href = "principal.html";
         });
         break
+    } else{
+        alert("Usuário ou senha inválidos!");   
+        break
     }
     }
     
     }
     
-    function teste(){
     
-        let item = ["zucas"]
-    
-        let nomes = [["bruno", "ZAZ", "Mônica"] + "," + item]
-    
-        localStorage.setItem("todos", nomes)
-    
-        // Retrieve
-        document.getElementById("demo").innerHTML = localStorage.getItem("todos")
-    }
