@@ -41,3 +41,9 @@ function limparCarrinho() {
     // recarrega a página do carrinho
     location.reload();
 }
+
+function removerProduto() {
+    localStorage.removeItem("carrinho");
+    // recarrega a página do carrinho
+    location.reload();
+}
