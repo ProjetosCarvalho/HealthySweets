@@ -434,6 +434,13 @@ footer p {
     background-color: #f52222;
   }
 
+  .btn-center {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
   .green-button {
     background-color: #4CAF50;
     border: none;
@@ -443,20 +450,17 @@ footer p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
     transition-duration: 0.3s;
-    margin-left: 40%;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
   .green-button:hover {
     background-color: #1a4e1d;
   }
   
-
 @media screen and (min-width: 1200px) {
 
     header {
