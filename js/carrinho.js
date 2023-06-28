@@ -59,6 +59,25 @@ function limparCarrinho() {
     total.innerHTML = "Total: R$ 0,00";
 }
 
+function finalizarCompra() {
+    // Coloque aqui o código para finalizar a compra
+    alert('Compra finalizada, bom apetite! Volte sempre :)');
+
+        // Código para limpar o carrinho aqui
+        localStorage.removeItem("carrinho");
+        // recarrega a página do carrinho
+        location.reload();
+    
+        // Remove todos os elementos filhos da tabela (exceto o footer)
+        const tbody = document.getElementById("itens-carrinho");
+        while (tbody.firstChild && tbody.firstChild.tagName !== "TR") {
+        tbody.removeChild(tbody.firstChild);
+        }
+    
+        // Atualiza o total do carrinho
+        const total = document.getElementById("total-carrinho");
+        total.innerHTML = "Total: R$ 0,00";
+  }
   
     
 
